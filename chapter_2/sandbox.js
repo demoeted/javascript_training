@@ -63,3 +63,40 @@
 // let result = email.replace('n','w') // Replaces first instance of the find character
 
 // console.log(result)
+
+// - - Numbers - -
+// let radius = 10
+// const pi = 3.14
+
+// console.log(radius, pi)
+
+// Math Operators +, -, *, /, **, %
+// console.log(10 / 2);
+
+// let result = radius % 3
+
+// console.log(result)
+
+// let result = pi * radius**2
+
+//Order of operation - B E D M A S (Brackets, Exponents, Division, Multiplicaiton, Addition, Subtraction)
+// let result = 5 * (10 - 3)**2
+// console.log(result)
+
+let likes = 10
+// likes = likes + 1
+// likes++ // Shorthand form to add one
+// likes-- // Shorthand to subtract one
+// likes += 10 // Shorthand to add a specific amount
+// likes -= 5 // Shorthand to subtract a specific amount
+// likes *= 2 // Shorthand to multiply a specific amount
+// likes /= 2 // Shorthand to divide a specific amount
+// console.log(likes)
+
+//NaN - Not a Number
+
+// console.log(5 / 'hello')
+// console.log(5 * 'hello')
+
+let result = 'the blog has ' + likes + ' likes'
+console.log(result)
