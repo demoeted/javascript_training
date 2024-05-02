@@ -138,7 +138,7 @@
 
 // console.log(ninjas.length)
 
-// Array Methods
+// // Array Methods
 // let result = ninjas.join(',') // Adds array elements together into a string with the ',' showing each separate element.
 
 // let result = ninjas.indexOf('chun-li')
@@ -148,9 +148,54 @@
 // console.log(result)
 
 // - - Null and Undefined - -
-let age
+// let age
 
-console.log(age, age + 3, `The age is ${age}`) // Result: undefined, NaN, "The age is undefined"
+// console.log(age, age + 3, `The age is ${age}`) // Result: undefined, NaN, "The age is undefined"
 
-age = null
-console.log(age, age + 3, `The age is ${age}`) // Result: null, 3, "The age is null"
+// age = null
+// console.log(age, age + 3, `The age is ${age}`) // Result: null, 3, "The age is null"
+
+// - - Booleans and Comparisons - -
+console.log(true, false, "true", "false")
+
+// Methods returning booleans
+let email = 'luigi@thenetninja.co.uk'
+let names = ['mario', 'luigi', 'toad']
+
+// let result = email.includes('@')
+// console.log(result)
+
+// result = names.includes('luigi')
+// console.log(result)
+
+// Comparison Operators
+let age = 25
+
+// console.log(age == 25)
+// console.log(age == 30)
+// console.log(age != 30)
+// console.log(age > 20)
+// console.log(age < 20)
+// console.log(age <= 25)
+// console.log(age >= 25)
+
+// let name = 'shaun'
+
+// console.log(name == 'shaun')
+// console.log(name == 'Shaun')
+// console.log(name > 'crystal') // s is later than c in the alphabet hence true
+// console.log(name > 'Shaun') // lowercase letters are greater than Uppercase letters
+// console.log(name > 'Crystal')
+
+// // Loose Comparison (Different types can still be equal)
+// // Javascript does a type conversion in the background
+// console.log(age = 25)
+// console.log(age = '25')
+// console.log(age != 25)
+// console.log(age != '25')
+
+// Strict Comparison (Type and Value must match to be equal)
+console.log(age === 25)
+console.log(age === '25')
+console.log(age !== 25)
+console.log(age !== '25')
