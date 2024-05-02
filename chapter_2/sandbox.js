@@ -156,11 +156,11 @@
 // console.log(age, age + 3, `The age is ${age}`) // Result: null, 3, "The age is null"
 
 // - - Booleans and Comparisons - -
-console.log(true, false, "true", "false")
+// console.log(true, false, "true", "false")
 
-// Methods returning booleans
-let email = 'luigi@thenetninja.co.uk'
-let names = ['mario', 'luigi', 'toad']
+// // Methods returning booleans
+// let email = 'luigi@thenetninja.co.uk'
+// let names = ['mario', 'luigi', 'toad']
 
 // let result = email.includes('@')
 // console.log(result)
@@ -168,8 +168,8 @@ let names = ['mario', 'luigi', 'toad']
 // result = names.includes('luigi')
 // console.log(result)
 
-// Comparison Operators
-let age = 25
+// // Comparison Operators
+// let age = 25
 
 // console.log(age == 25)
 // console.log(age == 30)
@@ -194,8 +194,25 @@ let age = 25
 // console.log(age != 25)
 // console.log(age != '25')
 
-// Strict Comparison (Type and Value must match to be equal)
-console.log(age === 25)
-console.log(age === '25')
-console.log(age !== 25)
-console.log(age !== '25')
+// // Strict Comparison (Type and Value must match to be equal)
+// console.log(age === 25)
+// console.log(age === '25')
+// console.log(age !== 25)
+// console.log(age !== '25')
+
+
+// - - Type Conversion - -
+let score = '100' 
+// score = Number(score)
+
+// console.log(score + 1)
+// console.log(typeof score)
+
+// let result = Number('hello') // Results in NaN
+// let result = String(50)
+// let result = Boolean(100) // Truthy Value
+// let result = Boolean(0) // Falsy value
+// let result = Boolean('0') // String has a length therefore true
+let result = Boolean('') // String has no length therefore false
+
+console.log(result, typeof result)
