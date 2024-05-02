@@ -101,7 +101,7 @@
 // let result = 'the blog has ' + likes + ' likes'
 // console.log(result)
 
-// // Template Strings
+// - - Template Strings - -
 // const title = 'Best reads of 2019'
 // const author = 'Mario'
 // const likes = 30
@@ -122,8 +122,8 @@
 // `
 // console.log(html)
 
-// Arrays
-let ninjas = ['shaun', 'ryu', 'chun-li']
+// - - Arrays - -
+// let ninjas = ['shaun', 'ryu', 'chun-li']
 // console.log(ninjas)
 // console.log(ninjas[1]) // Get element from index 1
 
@@ -143,6 +143,14 @@ let ninjas = ['shaun', 'ryu', 'chun-li']
 
 // let result = ninjas.indexOf('chun-li')
 // let result = ninjas.concat(['ken','crystal']) // Joins two arrays together
-let result = ninjas.push('ken') // Returns the new Array length
-result = ninjas.pop() // Removes the last index of the array and returns the value.
-console.log(result)
+// let result = ninjas.push('ken') // Returns the new Array length
+// result = ninjas.pop() // Removes the last index of the array and returns the value.
+// console.log(result)
+
+// - - Null and Undefined - -
+let age
+
+console.log(age, age + 3, `The age is ${age}`) // Result: undefined, NaN, "The age is undefined"
+
+age = null
+console.log(age, age + 3, `The age is ${age}`) // Result: null, 3, "The age is null"
