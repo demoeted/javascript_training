@@ -101,23 +101,48 @@
 // let result = 'the blog has ' + likes + ' likes'
 // console.log(result)
 
-// Template Strings
-const title = 'Best reads of 2019'
-const author = 'Mario'
-const likes = 30
+// // Template Strings
+// const title = 'Best reads of 2019'
+// const author = 'Mario'
+// const likes = 30
 
-// Concatenation way
+// // Concatenation way
 // let result = 'The blog called ' + title + ' by ' + author + ' has ' + likes + ' likes.'
 // console.log(result)
 
-// Template String way - uses backticks (`)
-let result = `The blog called ${title} by ${author} has ${likes} likes`
-console.log(result)
+// // Template String way - uses backticks (`)
+// let result = `The blog called ${title} by ${author} has ${likes} likes`
+// console.log(result)
 
-// Creating HTML Templates
-let html = `
-    <h2>${title}</h2>
-    <p>By ${author}</p>
-    <span>This blog has ${likes} likes</span>
-`
-console.log(html)
+// // Creating HTML Templates
+// let html = `
+//     <h2>${title}</h2>
+//     <p>By ${author}</p>
+//     <span>This blog has ${likes} likes</span>
+// `
+// console.log(html)
+
+// Arrays
+let ninjas = ['shaun', 'ryu', 'chun-li']
+// console.log(ninjas)
+// console.log(ninjas[1]) // Get element from index 1
+
+// ninjas[1] = 'ken' // Override element at index 1 to 'ken'
+// console.log(ninjas[1])
+
+// let ages = [20,25,30,35]
+// console.log(ages[2])
+
+// let random = ['shaun','crystal',30,20]
+// console.log(random)
+
+// console.log(ninjas.length)
+
+// Array Methods
+// let result = ninjas.join(',') // Adds array elements together into a string with the ',' showing each separate element.
+
+// let result = ninjas.indexOf('chun-li')
+// let result = ninjas.concat(['ken','crystal']) // Joins two arrays together
+let result = ninjas.push('ken') // Returns the new Array length
+result = ninjas.pop() // Removes the last index of the array and returns the value.
+console.log(result)
